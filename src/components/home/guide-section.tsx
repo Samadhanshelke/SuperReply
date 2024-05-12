@@ -24,7 +24,7 @@ export const GuideSection: React.FC<StepsSectionProps> = ({}) => {
                     <GuideStep stepNum={"2 :"} stepName={"Automated Reply & DM"} imageOffset={"translate-x-4"} imageOffsetMobile={"translate-x-2"} width={330} height={330} image={Feature2} description={"Send a personalised reply to the comment and initiate a DM chat through Superreply Automation."} />
                     </div>
                     <div className="snap-center">
-                    <GuideStep stepNum={"3 :"} stepName={"Sales Conversion"} imageOffset={"translate-x-7"} imageOffsetMobile={"translate-x-3 translate-y-[40px]"}  width={180} height={260} image={Feature3} description={"Convert the intent automatically into sales by offering incentives and building urgency in the DM chat. "} />
+                    <GuideStep stepNum={"3 :"} stepName={"Sales Conversion"} imageOffset={"translate-x-7"} imageOffsetMobile={"translate-x-3 translate-y-[40px]"}  width={160} height={300} image={Feature3} description={"Convert the intent automatically into sales by offering incentives and building urgency in the DM chat. "} />
                     </div>
                 </div>
             </div>
