@@ -57,13 +57,14 @@ export const FeaturesSection: React.FC<FeaturesSectionProps> = ({ }) => {
                            </div>
                            <div className="w-full h-full flex justify-center items-center gradient-primary-faded rounded-[2rem] md:rounded-[calc(5rem)]">
                               <div className="w-auto h-[100%] items-center justify-center">
-                                 <Image className="translate-y-8 md:translate-y-16 rounded-3xl md:rounded-[3.4rem] w-full h-full" src={data.source} alt="Description" unoptimized />
+                                 <Image className="translate-x-[0px]  translate-y-6  md:translate-y-16 w-[70vw] rounded-3xl md:rounded-[3.4rem] sm:w-full h-[100%]" src={data.source} alt="Description" unoptimized />
+                                 {/* <Image className="translate-y-8 md:translate-y-16 w-full rounded-3xl md:rounded-[3.4rem] sm:w-full h-full" src={data.source} alt="Description" unoptimized /> */}
                               </div>
                            </div>
                         </div>
                         <div className="w-[80%] md:w-[40%] text-left">
-                           <p className="font-sharp-grotesk leading-snug text-[30px] font-semibold text-black md:text-[46px] lg:text-[50px] leading-[115%]">
-                              {data.heading}
+                           <p className="font-sharp-grotesk  text-[30px] font-semibold text-black md:text-[46px] lg:text-[50px] leading-[115%]">
+                              {data.heading} 
                            </p>
                            <p className="mt-4 md:mt-8 font-sf-pro-display text-[18px] font-normal md:text-[24px]">{data.description}</p>
                         </div>
