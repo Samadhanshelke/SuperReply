@@ -23,7 +23,7 @@ const Alert = () => {
     //     {globalAlert.message}
     //   </MuiAlert>
     // </Snackbar>
-    <div>hello</div>
+    <div>hello world</div>
   );
 };
 
