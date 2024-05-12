@@ -1,9 +1,9 @@
 // GlobalAlert.js
 import React from 'react';
 // import { useAlert } from '@/contexts/AlertContext'; // Adjust the path as per your project structure
-import Snackbar from '@mui/material/Snackbar';
-import MuiAlert from '@mui/material/Alert';
-import AlertTitle from '@mui/material/AlertTitle';
+// import Snackbar from '@mui/material/Snackbar';
+// import MuiAlert from '@mui/material/Alert';
+// import AlertTitle from '@mui/material/AlertTitle';
 
 const Alert = () => {
   // const { globalAlert, hideAlert } = useAlert();
