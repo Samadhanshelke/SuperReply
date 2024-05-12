@@ -14,7 +14,7 @@ import Link from "next/link";
 import Growth1 from "../../../public/home/Growth-1.svg"
 import Growth2 from "../../../public/home/Growth-2.svg"
 import Growth3 from "../../../public/home/Growth-3.svg"
-import StepThree from "../Steps/StepThree";
+// import StepThree from "../Steps/StepThree";
 import One from "../../../public/home/1.svg"
 import Two from "../../../public/home/2.svg"
 import Three from "../../../public/home/3.svg"
