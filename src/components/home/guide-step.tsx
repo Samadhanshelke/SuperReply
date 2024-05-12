@@ -37,7 +37,7 @@ export const GuideStep: React.FC<StepsSectionProps> = ({stepNum, stepName, descr
             <div className="md:hidden flex w-[100%] flex-col gap-24 pb-10 mx-5 items-center justify-around">
                     <div className="h-[300px] w-[300px] flex items-center justify-center rounded-full gradient-primary-conic">
                         <div className={` ${imageOffsetMobile} translate-y-[50px] `}>
-                            <Image src={image} alt="" className={`rounded-[1.4rem] w-[${width}px] bg-cover h-[${height}px]`}></Image>
+                            <Image src={image} alt="" className={`rounded-[1.4rem] w-[${width}px]  h-[${height}px]`}></Image>
                         </div>
                     </div>
                 <div className="flex items-center h-[200px] justify-center">
